@@ -11,5 +11,7 @@ Made entirely in python, using PIL, BS4 and Tkinter.
 
 ## How to install and run:
 (Assuming you have Python installed on your machine)
-1) Install the necessary dependencies: `pip install -r requirements.txt`
-2) Running the application: simply run the gui.py file E.g: Linux: `python3 gui.py` | Windows: `py gui.py`
+1) Install the necessary dependencies: `pip install -r requirements.txt`.
+2) Running the application: simply run the gui.py file:
+* On Linux: `python3 gui.py` 
+* On Windows: `py gui.py`
