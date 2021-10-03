@@ -2,6 +2,8 @@ import tkinter as tk
 import match_scraping as ms
 import image_composing as ic
 
+DEFAULT_TEAMS_DIR = "files/default_teams.txt"
+
 def fill_options():
     my_list.delete(0, tk.END)
     for (i, opt) in enumerate(current_options):
@@ -31,7 +33,12 @@ def update_options(e):
 
     fill_options()
 
-options = ms.all_teams
+def load_default_teams ():
+    f = open(DEFAULT_TEAMS_DIR, 'r')
+    teams = f.readlines()
+    return [t.strip() for t in teams]
+
+options = load_default_teams()
 
 if __name__ == "__main__":
     current_options = options.copy()

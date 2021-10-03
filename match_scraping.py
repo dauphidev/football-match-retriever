@@ -3,20 +3,12 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.bbc.com/sport/football/scores-fixtures"
 HEADERS = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0" }
-DEFAULT_TEAMS_DIR = "files/default_teams.txt"
-
-def load_default_teams ():
-    f = open(DEFAULT_TEAMS_DIR, 'r')
-    teams = f.readlines()
-    return [t.strip() for t in teams]
 
 # TODO
 """
 def load_css_url ():
     pass
 """
-
-all_teams = load_default_teams()
 
 def get_response_and_soup ():
     response = requests.get(URL, headers = HEADERS)
