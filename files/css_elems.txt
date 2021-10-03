@@ -1,0 +1,7 @@
+COMP_BLOCKS_CLASS:"qa-match-block"
+MATCH_BLOCKS_CLASS:"gs-o-list-ui__item gs-u-pb-"
+COMP_CLASS:"gel-minion sp-c-match-list-heading"
+TEAMS_CLASS:"gs-u-display-none gs-u-display-block@m qa-full-team-name sp-c-fixture__team-name-trunc"
+MATCH_TIME_CLASS:"sp-c-fixture__number sp-c-fixture__number--time"
+ELAPSED_GT_CLASS:"sp-c-fixture__status gel-brevier sp-c-fixture__status--live-sport"
+FINAL_TIME_CLASS:"sp-c-fixture__status sp-c-fixture__status--ft gel-minion"
