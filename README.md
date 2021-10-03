@@ -1,5 +1,5 @@
 # Football Match Retriever
-Football match webscraping application. Select your favourite teams and the app will automatically gather the matches that take place on the current day in a single image.  
+Football match webscraping application. Select your favourite teams and the app will automatically gather the matches that take place on the current day in a single, easy to digest image.  
 
 ## WARNING:
 The code in this repository needs *a lot* of refactoring. This is not a final version.
